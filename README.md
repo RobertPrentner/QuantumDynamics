@@ -6,7 +6,7 @@ and presented in [2]. Implemented in FORTRAN. Based on a previous version of the
 
 [1]Robert Prentner et al. Wavepacket Dynamics of the Axially Chiral Molecule Cl−O−O−Cl under Coherent Radiative Excitation and Including Electroweak Parity Violation, J. Physical Chemistry A, 2015.
 
-[2]Robert Prentner. Tunneldynamik und Paritaẗsverletzung in chiralen und achiralen Molekülen. Diss. Nr. 20935, ETH Zürich, 2013.
+[2]Robert Prentner. Tunneldynamik und Paritätsverletzung in chiralen und achiralen Molekülen. Diss. Nr. 20935, ETH Zürich, 2013.
 
 [3]Ben Fehrensen et al. Mode Selective Stereomutation Tunnelling in Hydrogen Peroxide Isotopomers. Chem. Phys. Lett. 300: 312−320, 1999.
 

@@ -1,0 +1,31 @@
+cp cl2o2.zmat fort.3
+cp data/gaussian.out gaussian.out
+ifort mkinrph.f -o mkinrph
+cat > mkinrph.dat << marke
+-1069.4576729		!reference energy in hartree
+ 1					!include dipoles (0 False, 1 True)
+ 0					!potflag
+'data/0.log.out' 1
+'data/10.log.out' 1
+'data/20.log.out' 1
+'data/30.log.out' 1
+'data/40.log.out' 1
+'data/50.log.out' 1
+'data/60.log.out' 1
+'data/70.log.out' 1
+'data/80.log.out' 1
+'data/90.log.out' 1
+'data/100.log.out' 1
+'data/110.log.out' 1
+'data/120.log.out' 1
+'data/130.log.out' 1
+'data/140.log.out' 1
+'data/150.log.out' 1
+'data/160.log.out' 1
+'data/170.log.out' 1
+'data/180.log.out' 1
+marke
+
+./mkinrph < mkinrph.dat
+mv fort.2 mkinrph.out
+rm fort.3

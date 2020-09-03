@@ -1,0 +1,9 @@
+ clsscl    
+ cls  
+ clss 
+ ss   
+
+ O1   15.99491d0  
+ O2   15.99491d0 ,  O1 , ss
+ Cl1   34.96885d0 ,  O1 , cls ,  O2 , clss
+ Cl2   34.96885d0 ,  O2 , cls ,  O1 , clss ,  Cl1 , clsscl 

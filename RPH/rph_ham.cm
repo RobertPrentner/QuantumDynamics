@@ -1,0 +1,15 @@
+cp rph_fit_parameter.out fort.1
+cp cl2o2.zmat fort.3
+ifort rph_ham.f90 marqfit.o sub.o diabat.o structs.o -double_size 128 -vec-report0 -o rph_ham
+./rph_ham << marke
+ 4
+ 15.99491d0 15.99491d0 34.96885d0 34.96885d0
+ 21  11  42  21 	NFREQ, NG, NL, NB
+ 199        NUMBER OF POINTS USED FOR NUM. CALC.    
+ 100  0  0      IREF, NSEL,  ISEL(1:NSEL) 
+ 10.0  0.1  1000    DEMAX, ROTMIN, MAXROT   
+marke
+cp fort.2 rph_ham.out
+cp fort.32 rph_calc_anal.out
+cp fort.40 rotconst.out
+cp fort.22 rotconst_parameter.out

@@ -1,0 +1,5 @@
+DS=128
+ifort marqfit.f90 -vec-report0 -double-size $DS -c
+ifort sub.f90 -vec-report0 -double-size $DS -c
+ifort structs.f90 -vec-report0 -double-size $DS -c
+ifort diabat.for -double-size $DS -c

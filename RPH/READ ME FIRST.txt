@@ -1,0 +1,23 @@
+ABOUT
+
+This file is a documentation for the latest working version of RPH using sin/cos fitting and analytical derivatives. Torsional levels and tunneling splittings of ClOOCl are calculated for the hypothetical symmetric potential. All programs were compiled using a commercially available Intel Fortran 90 compiler (ifort, v 11.1). For use of other compilers adjust accordingly).
+The numerical precision is double precision (128 bit, corresponding to a real floating point number with 32 decimal digits). Copy zmat-file, data-folder, source codes and .cmm-files (which compile everything and generate std inputs) into the same folder or adjust accordingly. The file rph.chk is the reference output for a calculation with 199 that reproduces the numbers from the paper.
+
+HOW TO EXECUTE
+
+The program consists of several subprograms which are to be executed in the following order:
+
+0) Create object .o and .mod-files used for further compilation; execute compile_sub.cm
+
+1) Read the input from Quantum Chemical calculations (Gaussian .log.out-files to be found in the folder data/, Z-Matrix (cl2o2.zmat) and format it to the specific RPH format; execute mkinrph.cm
+
+2) Fit the numerical data to a cos/sin-series expansion; use rph_fit.cm 
+
+3) Preparing the Hamiltonian by calculating the effective potentials, metric g-tensor elements and B-Matrix elements (Coriolis type couplings); execute rph_ham.cm
+
+4) Setup the Hamiltonian Matrix and solve it using standard DVR; execute rph.cm 
+
+For details of the theory consult Section 2 of the paper and References given there.
+
+The authors,
+21. 8. 2015  

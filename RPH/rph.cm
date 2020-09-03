@@ -1,0 +1,9 @@
+cp rph_ham.out fort.1
+ifort rph.f90 marqfit.o structs.o sub.o -double-size 128 -o rph
+./rph << marke
+4
+199
+0. 360. 
+1.
+marke
+cp fort.45 rph.out

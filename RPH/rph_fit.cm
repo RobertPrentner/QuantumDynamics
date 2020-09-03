@@ -1,0 +1,34 @@
+cp mkinrph.out fort.1
+cp cl2o2.zmat fort.3
+ifort marqfit.o rph_fit.f90 sub.o structs.o -double_size 128 -vec-report0 -o rph_fit
+cat > rph_fit.dat << marke
+1		!dip = false
+4
+15.99491d0 15.99491d0 34.96885d0 34.96885d0
+ 179
+ 0.01
+ 0.
+10.
+20.
+30.
+40.
+50.
+60.
+70.
+80.
+90.
+100.
+110.
+120.
+130.
+140.
+150.
+160.
+170.
+180.
+marke
+
+./rph_fit < rph_fit.dat
+mv fort.2 mkinrph_nofit.out
+mv fort.7 rph_fit_parameter.out
+mv fort.8 rph_int.out

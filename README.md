@@ -2,7 +2,7 @@
 This repository contains: 
 1. The "Reaction Path Hamiltonian" program package as developed during my tenure at the Laboratory of Physical Chemistry at ETH Zürich in the lab of Prof. Martin Quack
 and presented in [1]. Implemented in FORTRAN. Based on a previous version of the RPH-method developed in [2,3].
-2. Various Mathematica notebooks to calculate and vizualise effective 1D and 2D quantum wavepackets based on the calculated energies calculated RPH-fit, as presented in [1,4].
+2. Various Mathematica notebooks to calculate and vizualise effective 1D and 2D quantum wavepackets based on the calculated energies calculated with RPH, as presented in [1,4].
 
 [1]Robert Prentner et al. Wavepacket Dynamics of the Axially Chiral Molecule Cl−O−O−Cl under Coherent Radiative Excitation and Including Electroweak Parity Violation, J. Physical Chemistry A, 2015.
 

@@ -10,6 +10,6 @@ and presented in [1]. Implemented in FORTRAN. Based on a previous version of the
 
 [3]Ben Fehrensen et al. Inversion Tunneling in Aniline from High Resolution Infrared Spectroscopy and an Adiabatic Reaction Path Hamiltonian Approach. Z. Phys. Chem. 209: 1−19, 1999.
 
-[4] Prentner, R. Tunneldynamik und Paritaẗsverletzung in chiralen und achiralen Molekülen. Diss. Nr. 20935, ETH Zürich, 2013.
+[4]Robert Prentner. Tunneldynamik und Paritaẗsverletzung in chiralen und achiralen Molekülen. Diss. Nr. 20935, ETH Zürich, 2013.
 
 The help and input of Prof. Martin Quack, Prof. Jürgen Stohner, and Dr. Martin Willeke is highly appreciated. We are indebted to Dr. David Luckhaus who pioneered the use of DVR representations and supervised the original implementation of the RPH-method due to Fehrensen et al. 

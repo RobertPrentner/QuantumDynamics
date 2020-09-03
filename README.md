@@ -14,7 +14,7 @@ and presented in [2]. Implemented in FORTRAN. Based on a previous version of the
 
 [5] Wolfram Research, Inc. Mathematica 6.0 Champaign IL, 2008.
 
-[6] Martin Quack. Multiphoton excitation, in P. v. Ragu ́e Schleyer, N. Allinger, T. Clark, J. Gasteiger, P. A. Kollman, H. F. Schaefer III & P. R. Schreiner, eds, ‘Encyclopedia of Computational Chemistry, Vol. 3’, John Wiley and Sons, pp. 1775 – 1791, 1998.
+[6] Martin Quack. Multiphoton excitation, in P. v. Rague Schleyer, N. Allinger, T. Clark, J. Gasteiger, P. A. Kollman, H. F. Schaefer III & P. R. Schreiner, eds, ‘Encyclopedia of Computational Chemistry, Vol. 3’, John Wiley and Sons, pp. 1775 – 1791, 1998.
 
 [7] Klaas Bergmann et al. Roadmap on STIRAP applications. J. Phys. B: At. Mol. Op. Phys. 52: 20200, 2019.
 

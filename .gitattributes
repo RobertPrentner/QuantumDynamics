@@ -1,4 +1,3 @@
 *.for linguist-detectable=true
 *.f linguist-detectable=true
-MolecularWavepackets/RAP.nb linguist-detectable=false
-MolecularWavepackets/STIRAP.nb linguist-detectable=false
+*.nb linguist-detectable=false

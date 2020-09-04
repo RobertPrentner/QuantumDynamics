@@ -11,7 +11,7 @@ This repository contains:
 
 [4]Ben Fehrensen et al. Inversion Tunneling in Aniline from High Resolution Infrared Spectroscopy and an Adiabatic Reaction Path Hamiltonian Approach. Z. Phys. Chem. 209: 1−19, 1999.
 
-[5] Wolfram Research, Inc. Mathematica 6.0 Champaign IL, 2008.
+[5] Wolfram Research, Inc. Mathematica, Champaign IL, 2008.
 
 [6] Martin Quack. Multiphoton excitation, in P. v. Rague Schleyer, N. Allinger, T. Clark, J. Gasteiger, P. A. Kollman, H. F. Schaefer III & P. R. Schreiner, eds, ‘Encyclopedia of Computational Chemistry, Vol. 3’, John Wiley and Sons, pp. 1775 – 1791, 1998.
 

@@ -1,0 +1,16 @@
+SAMPLE INPUT FOR URIMIR-1D.                                                     
+SPECTROSCOPIC DATA SUPPLIED FROM URIMIR-0D WITH THE SAMPLE                      
+INPUT GIVEN THEREIN, READ FROM UNIT 29.                                         
+87 COUPLED STATES DISTRIBUTED OVER 3 COARSE-GRAINED LEVELS.                     
+LASER TUNED AT 1030 CM-1 WITH AN INTENSITY OF 40 GW*CM-2                        
+TIME RANGE FROM O TO 25 PS  (130 TIME STEPS)                                    
+INITIAL TEMPERATURE IS 5K (12 FIRST STATES POPULATED AT TIME T=0)               
+BLANK                                                                           
+BLANK                                                                           
+PRODUCES SAMPLE OUTPUT OF URIMIR-1D.                                            
+0  0                                                                            
+246.54 1.D9
+0.D0 15.D-12 151                                                              
+1  2                                                                           
+0.D0  8                                                                        
+1 2 3 4 5 6 10 12

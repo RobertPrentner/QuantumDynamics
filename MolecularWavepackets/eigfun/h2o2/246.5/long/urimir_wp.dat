@@ -1,0 +1,19 @@
+12		!No. of Eigenfunctions calcualted	
+12		!No. of Eigenfunctions used for URIMIR calculation
+0.0 15.D-12 151		!t_0,t_max, No. time steps    
+5.9016 61 2.951                      !gridwidth, gridpoints, outer left grid point
+246.54				!frequency of the laser field in inverse cm 1013.9837	
+0  0.55       !number of timesteps for free evolution, timestep in s
+    1 		0.0000000000000000000000  
+    2 		11.1293386158600000000000
+    3	 	257.6727000000000000000000 
+    4	 	377.7407167447000000000000
+    5	 	580.8211000000000000000000
+    6	 	794.7443672512600000000000  
+    7	 	1027.7100000000000000000000 
+    8	 	1271.6436591777800000000000 
+    9	 	1521.7367000000000000000000 
+    10	1775.8959841782900000000000 
+    11	2018.0820000000000000000000  
+    12	2280.8804415482800000000000  
+    
